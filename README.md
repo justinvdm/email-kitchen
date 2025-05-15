@@ -1,5 +1,3 @@
-# Email Kitchen with RedwoodSDK
-
 A [RedwoodSDK](https://rwsdk.com) demo project with email functionality using [Resend](https://resend.com) and [react-email](https://https://react.email).
 
 👉 [Documentation for Sending Email](https://docs.rwsdk.com/guides/email/sending-email)
