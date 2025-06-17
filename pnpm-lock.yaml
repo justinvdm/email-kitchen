@@ -17,6 +17,9 @@ importers:
       '@react-email/components':
         specifier: ^0.0.41
         version: 0.0.41(react-dom@19.2.0-canary-39cad7af-20250411(react@19.2.0-canary-39cad7af-20250411))(react@19.2.0-canary-39cad7af-20250411)
+      '@react-email/render':
+        specifier: ^1.1.2
+        version: 1.1.2(react-dom@19.2.0-canary-39cad7af-20250411(react@19.2.0-canary-39cad7af-20250411))(react@19.2.0-canary-39cad7af-20250411)
       '@simplewebauthn/browser':
         specifier: ^13.1.0
         version: 13.1.0
@@ -27,8 +30,8 @@ importers:
         specifier: ^4.5.1
         version: 4.5.1(react-dom@19.2.0-canary-39cad7af-20250411(react@19.2.0-canary-39cad7af-20250411))(react@19.2.0-canary-39cad7af-20250411)
       rwsdk:
-        specifier: 0.1.0-alpha.15
-        version: 0.1.0-alpha.15(rollup@4.40.2)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.18)(terser@5.39.2))(webpack@5.99.8(esbuild@0.25.4))(workerd@1.20250604.0)
+        specifier: 0.1.0-alpha.16
+        version: 0.1.0-alpha.16(rollup@4.40.2)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.18)(terser@5.39.2))(webpack@5.99.8(esbuild@0.25.4))(workerd@1.20250604.0)
     devDependencies:
       '@types/node':
         specifier: ^22.14.0
@@ -1909,8 +1912,8 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  rwsdk@0.1.0-alpha.15:
-    resolution: {integrity: sha512-cvzyhIv0TVXm17JWuSjWimRRq7Ao5lgv1MlcDSQBL/Dkr02VdZ7lfqiZrhaJk6M+TLeERqosmsPiHdR7Xh3WFA==}
+  rwsdk@0.1.0-alpha.16:
+    resolution: {integrity: sha512-U3X5CpbM8mJtRxyXnaqXxzJRpDBSbfdANuW/6SNobiUm4X0AWJMDZiyzLSX36t7JuX0ELfDeBFIb6KSgsyVA/g==}
     hasBin: true
     peerDependencies:
       vite: ^6.2.6
@@ -4110,7 +4113,7 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  rwsdk@0.1.0-alpha.15(rollup@4.40.2)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.18)(terser@5.39.2))(webpack@5.99.8(esbuild@0.25.4))(workerd@1.20250604.0):
+  rwsdk@0.1.0-alpha.16(rollup@4.40.2)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.18)(terser@5.39.2))(webpack@5.99.8(esbuild@0.25.4))(workerd@1.20250604.0):
     dependencies:
       '@ast-grep/napi': 0.38.5
       '@cloudflare/vite-plugin': 0.0.0-1bae8618b(rollup@4.40.2)(vite@6.3.5(@types/node@22.15.18)(terser@5.39.2))(workerd@1.20250604.0)(wrangler@4.20.0(@cloudflare/workers-types@4.20250515.0))
@@ -4131,7 +4134,7 @@ snapshots:
       jsonc-parser: 3.3.1
       lodash: 4.17.21
       magic-string: 0.30.17
-      miniflare: 4.20250508.1
+      miniflare: 4.20250604.1
       picocolors: 1.1.1
       puppeteer-core: 22.15.0
       react: 19.2.0-canary-39cad7af-20250411

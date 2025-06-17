@@ -16,6 +16,8 @@ export async function sendWelcomeEmail(formData: FormData) {
 
   const resend = new Resend(env.RESEND_API);
 
+  console.log(await renderToString(WelcomeEmail({ name: email })));
+
   const { data, error } = await resend.emails.send({
     from: Constants.FORM_EMAIL,
     to: email,

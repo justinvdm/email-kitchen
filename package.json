@@ -30,10 +30,11 @@
     "@prisma/adapter-d1": "~6.5.0",
     "@prisma/client": "~6.5.0",
     "@react-email/components": "^0.0.41",
+    "@react-email/render": "^1.1.2",
     "@simplewebauthn/browser": "^13.1.0",
     "@simplewebauthn/server": "^13.1.1",
     "resend": "^4.5.1",
-    "rwsdk": "0.1.0-alpha.15"
+    "rwsdk": "0.1.0-alpha.16"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
